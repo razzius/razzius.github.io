@@ -9,4 +9,4 @@ github_username:  razzius
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
