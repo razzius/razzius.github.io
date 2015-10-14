@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<a href="/">razzi.abuissa.net/</a>
+<hr>
+
+<h2>Blog</h2>
+{% for post in site.posts %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
+
+<h2>About</h2>
+<p>I'm a software engineer currently in the city of San Francisco. My interests include open source software and sustainability.</p>

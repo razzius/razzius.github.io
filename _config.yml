@@ -1,0 +1,12 @@
+# Site settings
+title: razzi.abuissa.net
+email: razzi53@gmail.com
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://razzi.abuissa.net" # the base hostname & protocol for your site
+twitter_username: razzzzi
+github_username:  razzius
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
