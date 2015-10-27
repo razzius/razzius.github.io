@@ -26,3 +26,7 @@ pre.terminal {
 .terminal .red {
   color: red;
 }
+
+a img {
+  vertical-align: middle;
+}
