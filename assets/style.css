@@ -30,3 +30,9 @@ pre.terminal {
 a img {
   vertical-align: middle;
 }
+
+.centered {
+    margin: auto;
+    display: block;
+    text-align: center;
+}

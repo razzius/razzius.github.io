@@ -3,9 +3,15 @@ title: razzi.abuissa.net
 email: razzi53@gmail.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://razzi.abuissa.net" # the base hostname & protocol for your site
+url: "https://razzi.abuissa.net"
 twitter_username: razzzzi
-github_username:  razzius
+github_username: razzius
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: base
 
 # Build settings
 markdown: kramdown
