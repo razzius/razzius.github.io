@@ -1,38 +1,42 @@
 body {
-  font-family: helvetica;
-  font-size: 18px;
-  line-height: 1.4em;
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 1.4em;
 }
 .container {
-  margin: auto;
-  max-width: 800px;
+    margin: auto;
+    max-width: 800px;
 }
 .code-block pre {
-  margin: 0px;
+    margin: 0px;
 }
 .added {
-  background: lightgreen;
+    background: lightgreen;
 }
 
 pre.terminal {
-  color: white;
-  background: black;
-  padding: 1em;
-  font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    background: black;
+    padding: 1em;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 .terminal .green {
-  color: lime;
+    color: lime;
 }
 .terminal .red {
-  color: red;
+    color: red;
 }
 
 a img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .centered {
     margin: auto;
     display: block;
     text-align: center;
+}
+
+h2 {
+    margin-top: 2rem;
 }

@@ -1,6 +1,6 @@
 # Site settings
 title: razzi.abuissa.net
-email: razzi53@gmail.com
+email: razzi@abuissa.net
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://razzi.abuissa.net"
@@ -15,4 +15,7 @@ defaults:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
