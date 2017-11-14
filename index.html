@@ -3,14 +3,13 @@ layout: base
 ---
 
 <h2>Blog</h2>
-{% for post in site.posts %}
-  <div>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </div>
-{% endfor %}
-
-<h2>About</h2>
-<p>I'm Razzi Abuissa, a software engineer currently in the city of San Francisco. My interests include open source software and sustainability.</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <h2>Terrible Vegan Podcast</h2>
 <ol start="0">
@@ -18,6 +17,16 @@ layout: base
   <li><a href="/assets/terrible_vegan_1.mp3">Unsure in the City</a></li>
 </ol>
 
-<a href="http://github.com/razzius"><img src="http://github.com/favicon.ico" alt="github"></a>
-<a href="http://twitter.com/razzzzi"><img src="http://abs.twimg.com/favicons/favicon.ico" alt="twitter"></a>
-<a href='mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;'>&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a>
+<div style="display: flex; justify-content: space-between">
+  <div style="width: 60%">
+    <h2>About</h2>
+    <p>I'm Razzi Abuissa, a software engineer currently in the city of San Francisco. My interests include open source software and sustainability.</p>
+    <a href="http://github.com/razzius"><img src="http://github.com/favicon.ico" alt="github"></a>
+    <a href="http://twitter.com/razzzzi"><img src="http://abs.twimg.com/favicons/favicon.ico" alt="twitter"></a>
+    <a href='mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;'>&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a>
+  </div>
+  <div style="max-width: 200px">
+    <img style="width: 100%" alt="Razzi drawing" src="razportrait-edit3.jpg"/>
+    <p style="text-align: center">Drawing by <a href="http://www.helloarielliu.com/">Ariel Liu</a></p>
+  </div>
+</div>
