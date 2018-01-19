@@ -3,6 +3,8 @@ title: I'm quitting violent video games
 date: 2018-01-19
 ---
 
+## I'm quitting violent video games
+
 I used to be a frequent gamer, playing mostly Warcraft 3, World of Warcraft, and Dota 2. Although I haven't played them much recently, I'm now quitting playing and watching them altogether, because the main objective in the game is to kill or otherwise destroy your opponents.
 
 Recently while playing Dota 2, I reflected for a moment as players insulted and cursed at each other over chat. I concluded that the game pitting players against each other, and the intense violence of the game, was feeding their anger and hate. The verbal abuse, of course, is not restricted to those on the opposing team. A participant's entire outlook on the game is essentially hateful and violent.
