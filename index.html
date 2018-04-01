@@ -5,20 +5,26 @@ layout: base
 <h2>Blog</h2>
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    {% if post.category != "terrible_vegan" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
 <h2>Terrible Vegan Podcast</h2>
 <ol start="0">
-  <li><a href="/assets/terrible_vegan_0.mp3">What is a Terrible Vegan Anyways</a> (4:49)</li>
-  <li><a href="/assets/terrible_vegan_1.mp3">Unsure in the City</a> (5:12)</li>
-  <li><a href="/assets/terrible_vegan_2.mp3">Train Thoughts</a> (2:56)</li>
-  <li><a href="/assets/terrible_vegan_3.mp3">A Christian Perspective</a> (9:33)</li>
-  <li><a href="/assets/terrible_vegan_4.mp3">Night Bike</a> (4:39)</li>
-  <li><a href="/assets/terrible_vegan_5.mp3">A Conversation with Ellen</a> (35:13)</li>
+  {% for post in site.categories.terrible_vegan reversed %}
+    <li>
+      <a href="/assets/terrible_vegan_{{ post.episode }}.mp3">{{ post.title }} ({{ post.length }})</a>
+    </li>
+  {% endfor %}
+
+      <!-- <li><a href="/assets/terrible_vegan_2.mp3">Train Thoughts</a> (2:56)</li> -->
+      <!-- <li><a href="/assets/terrible_vegan_3.mp3">A Christian Perspective</a> (9:33)</li> -->
+      <!-- <li><a href="/assets/terrible_vegan_4.mp3">Night Bike</a> (4:39)</li> -->
+      <!-- <li><a href="/assets/terrible_vegan_5.mp3">A Conversation with Ellen</a> (35:13)</li> -->
 </ol>
 
 <div style="display: flex; justify-content: space-between">
