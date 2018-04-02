@@ -1,8 +1,7 @@
-# Site settings
 title: razzi.abuissa.net
 email: razzi@abuissa.net
+author: Razzi Abuissa
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://razzi.abuissa.net"
 twitter_username: razzzzi
 github_username: razzius
