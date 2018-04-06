@@ -29,7 +29,9 @@ layout: null
 		</itunes:owner>
 
 		<itunes:image href="{{ site.url }}/img/terrible_vegan_logo.png"/>
-		<itunes:category text="Food"/>
+		<itunes:category text="Arts">
+      <itunes:category text="Food"/>
+    </itunes:category>
 		<itunes:explicit>no</itunes:explicit>
 
 		{% for post in site.categories.terrible_vegan reversed %}
