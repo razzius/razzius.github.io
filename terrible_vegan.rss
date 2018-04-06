@@ -6,7 +6,7 @@ layout: null
 	<channel>
 		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml"/>
 		<title>Terrible Vegan</title>
-		<description>Food, environment, stories</description>
+		<description>Veganism, stories, and perspectives</description>
 		<link>{{ site.url }}</link>
 		<language>en</language>
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
@@ -45,7 +45,7 @@ layout: null
                    length="{{ post.length }}"
                    type="audio/mp3"/>
 				<itunes:author>{{ site.author }}</itunes:author>
-				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
+				<itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
 				<itunes:duration>{{ post.length }}</itunes:duration>
 				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
 				<itunes:image href="{{ site.url }}/img/terrible_vegan_logo.png"/>
