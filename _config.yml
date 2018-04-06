@@ -18,3 +18,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+terrible_vegan_description: Veganism, stories, and perspectives

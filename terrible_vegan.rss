@@ -6,7 +6,7 @@ layout: null
 	<channel>
 		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml"/>
 		<title>Terrible Vegan</title>
-		<description>Veganism, stories, and perspectives</description>
+		<description>{{ site.terrible_vegan_description }}</description>
 		<link>{{ site.url }}</link>
 		<language>en</language>
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
@@ -20,7 +20,7 @@ layout: null
 		</image>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+		<itunes:summary>{{ site.terrible_vegan_description | xml_escape }}</itunes:summary>
 		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
 
 		<itunes:owner>
@@ -30,7 +30,7 @@ layout: null
 
 		<itunes:image href="{{ site.url }}/img/terrible_vegan_logo.png"/>
 		<itunes:category text="Food"/>
-		<itunes:explicit>yes</itunes:explicit>
+		<itunes:explicit>no</itunes:explicit>
 
 		{% for post in site.categories.terrible_vegan reversed %}
 			<item>
@@ -38,7 +38,7 @@ layout: null
 				<link>{{ site.url }}{{ post.url }}</link>
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<description>
-        harcdoe
+          {{ post.description | xml_escape }}
         </description>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 				<enclosure url="{{ site.url }}/assets/terrible_vegan_{{ post.episode }}.mp3"
