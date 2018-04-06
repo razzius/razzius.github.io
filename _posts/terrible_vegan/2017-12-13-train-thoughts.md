@@ -6,4 +6,5 @@ length: "2:56"
 category: terrible_vegan
 keywords: thoughts,train travel,environment
 description: I share my thoughts on taking trains.
+explicit: "no"
 ---

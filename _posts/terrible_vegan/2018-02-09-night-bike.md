@@ -6,4 +6,5 @@ length: "4:39"
 category: terrible_vegan
 keywords: story,shelter,social safety net,basic income
 description: I tell a story of locking myself out of my apartment.
+explicit: "no"
 ---

@@ -6,4 +6,5 @@ length: "5:12"
 category: terrible_vegan
 keywords: story,homelessness
 description: I tell a story of meeting a homeless person while waiting for the streetcar.
+explicit: "no"
 ---
