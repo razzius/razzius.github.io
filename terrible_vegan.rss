@@ -30,8 +30,6 @@ layout: null
 
 		<itunes:image href="{{ site.url }}/img/terrible_vegan_logo.png"/>
 		<itunes:category text="Food"/>
-		<itunes:category text="Vegan"/>
-		<itunes:category text="Environment"/>
 		<itunes:explicit>yes</itunes:explicit>
 
 		{% for post in site.categories.terrible_vegan reversed %}
