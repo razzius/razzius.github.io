@@ -16,7 +16,7 @@ layout: base
 <h2>Terrible Vegan Podcast</h2>
 <ol start="0">
   {% for post in site.categories.terrible_vegan reversed %}
-    <li>
+    <li class="episode-{{post.episode}}">
       <a href="/assets/terrible_vegan_{{ post.episode }}.mp3">{{ post.title }} ({{ post.length }})</a>
     </li>
   {% endfor %}

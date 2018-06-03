@@ -40,3 +40,21 @@ a img {
 h2 {
     margin-top: 2rem;
 }
+ol {
+    counter-reset: item -1;
+    list-style: none;
+}
+
+li.episode-8 {
+    counter-increment: item 1;
+}
+li {
+    position: relative;
+}
+li:before {
+    /* counter-increment: counter(item) */
+    counter-increment: item;
+    content: counter(item) '.';
+    position: absolute;
+    left: -2em;
+}
