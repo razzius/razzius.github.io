@@ -48,13 +48,12 @@ ol {
 li.episode-8 {
     counter-increment: item 1;
 }
-li {
+ol li {
     position: relative;
 }
-li:before {
-    /* counter-increment: counter(item) */
+ol li:before {
     counter-increment: item;
     content: counter(item) '.';
     position: absolute;
-    left: -2em;
+    left: -1.33em;
 }
