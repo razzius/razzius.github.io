@@ -48,6 +48,7 @@ layout: null
                    type="audio/mp3"/>
 				<itunes:author>{{ site.author }}</itunes:author>
 				<itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
+				<itunes:episode>{{ post.episode }}</itunes:episode>
 				<itunes:duration>{{ post.length }}</itunes:duration>
 				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
 				<itunes:image href="{{ site.url }}/img/terrible_vegan_logo.png"/>
