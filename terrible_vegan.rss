@@ -38,7 +38,7 @@ layout: null
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				<link>{{ site.url }}{{ post.url }}</link>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
 				<description>
           {{ post.description | xml_escape }}
         </description>
