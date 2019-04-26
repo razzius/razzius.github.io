@@ -1,59 +1,80 @@
 body {
-    font-family: helvetica;
-    font-size: 18px;
-    line-height: 1.4em;
+  font-family: helvetica;
+  font-size: 18px;
+  line-height: 1.4em;
 }
 .container {
-    margin: auto;
-    max-width: 800px;
+  margin: auto;
+  max-width: 800px;
 }
 .code-block pre {
-    margin: 0px;
+  margin: 0px;
 }
 .added {
-    background: lightgreen;
+  background: lightgreen;
 }
 
 pre.terminal {
-    color: white;
-    background: black;
-    padding: 1em;
-    font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  background: black;
+  padding: 1em;
+  font-family: 'Lucida Console', Monaco, monospace;
 }
 .terminal .green {
-    color: lime;
+  color: lime;
 }
 .terminal .red {
-    color: red;
+  color: red;
 }
 
 a img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .centered {
-    margin: auto;
-    display: block;
-    text-align: center;
+  margin: auto;
+  display: block;
+  text-align: center;
 }
 
 h2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
+  margin-left: 2em;
 }
 ol {
-    counter-reset: item -1;
-    list-style: none;
+  counter-reset: item -1;
+  list-style: none;
 }
 
 li.episode-8 {
-    counter-increment: item 1;
+  counter-increment: item 1;
 }
 ol li {
-    position: relative;
+  position: relative;
 }
 ol li:before {
-    counter-increment: item;
-    content: counter(item) '.';
-    position: absolute;
-    left: -1.33em;
+  counter-increment: item;
+  content: counter(item) '.';
+  position: absolute;
+  left: -1.33em;
+}
+
+.projects img {
+  display: block;
+  margin: auto;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.homepage {
+  background: linear-gradient(110deg, blue, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
 }
