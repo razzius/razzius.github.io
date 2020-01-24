@@ -62,7 +62,7 @@ sierraclub.wtf?
 
 The Internet Corporation for Assigned Names and Numbers (ICANN), which
 administers generic top-level domains (gTLDs, such as .com, .net, and .org)
-hosts its site at icann.org; I bought [icann.wtf](https://icann.wtf) for $4.06.
+hosts its site at icann.org; I bought [icann.wtf](http://icann.wtf) for $4.06.
 
 Organizations that have had .org domains for dozens of years, like wikipedia.org
 and icann.org, derive immense value from the maintenance of their historical
