@@ -47,3 +47,7 @@ Personal recipe book. Keep track of recipes you like, group recipes into cookboo
 ## FriendLend
 
 List your possessions that you're willing to lend out (sleeping bag, guitar) and keep track of who's borrowing them. Use as a personal belongings website. Make recommendations about the things you own - these shoes are great, this appliance is disappointing.
+
+## Personalpedia
+
+Your own wikipedia to collect your thoughts.
