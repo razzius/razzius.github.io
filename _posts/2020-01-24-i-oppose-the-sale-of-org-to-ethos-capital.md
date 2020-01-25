@@ -9,7 +9,7 @@ Public Interest Registry (PIR) is the organization that manages the .org
 top-level domain. The Internet Society (ISOC), a nonprofit organization, created
 PIR in 2002 and was its parent company until November 2019, when ISOC announced
 the sale of PIR to Ethos Capital for $1.135 billion, a private equity investment
-firm founded in 2019. PIR, which was established as a nonprofit subsequently
+firm founded in 2019. PIR, which was established as a nonprofit, subsequently
 announced that it would cease to be a nonprofit and become a B Corporation.
 
 Organizations such as the Electronic Frontier Foundation (EFF) have voiced
