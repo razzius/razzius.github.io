@@ -27,7 +27,7 @@ for 99 years?
 They wouldn't even need to resort to such tricks to reap a hefty profit at the
 expense of .org customers; increasing the price by 10% anually doubles the cost
 every 8 years (log(2) / log(1.1) = 7.27). PIR has already operated .org for 16
-years, and could operate it for decades more; even relatively slow exponent
+years, and could operate it for decades more; even relatively slow exponential
 growth would harm .org registrants.
 
 Keeping the .org prices steady, as has been the case for several years, has
