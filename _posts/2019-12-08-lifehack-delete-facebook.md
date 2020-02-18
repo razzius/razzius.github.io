@@ -21,13 +21,17 @@ Since then, I have read about [illicit data harvesting](https://en.wikipedia.org
 
 By adding known Facebook domains to my `/etc/hosts` with a local address, I prevent web traffic from going to them. Among the benefits are that I am not tracked, I save bandwidth on the requests, and Facebook content like "Like" buttons simply don't appear.
 
-Here's a sample of what that looks like:
+Here's a sample of what that looks like. [Note that both IPV4 and IPV6 addresses are needed to block all traffic.](https://apple.stackexchange.com/questions/158117/os-x-10-10-1-etc-hosts-private-etc-hosts-file-is-being-ignored-and-not-resol)
 
 ```
 0.0.0.0 apps.facebook.com
+::1 apps.facebook.com
 0.0.0.0 connect.facebook.net
+::1 connect.facebook.net
 0.0.0.0 facebook.com
+::1 facebook.com
 0.0.0.0 fbcdn.com
+::1 fbcdn.com
 ```
 
 [Take a look at the entire list and how to install them here](https://github.com/razzius/blocked-hosts#blocked-hosts).
