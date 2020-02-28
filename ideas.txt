@@ -1,0 +1,15 @@
+lightscript + langs
+
+
+languages in general
+docstring convention
+ez modules
+= means equals
+snake_case
+exhaustive pattern matches
+use \ as string interpolation marker
+have 1.0m builtin currency type
+
+lack printing of null?
+
+
