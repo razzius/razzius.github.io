@@ -39,12 +39,15 @@ Blueprint uses a sentinel as a default argument to know when the user explicitly
 
 Users will never pass the sentinel explicitly, but we still need to include that type. Sentinel is an `object` instance, but so is everything else, so typing it as `Union[Optional[str], object]` is no different than just typing it as `object`. The solution:
 
+```python
 class _Sentinel(object): ...
 
 def __init__(self, <arguments>, cli_group: Union[Optional[str], _Sentinel] = ...) -> None: ...
+```
 
-Note that the ellipsis are actually in the stub code as a literal, so I used <arguments> as a placeholder.
-Importing this into my code base
+> Note that the ellipsis are actually in the stub code as a literal, so I used `<arguments>` as a placeholder.
+
+## Importing this into my code base
 
 The [pull request made it in to typeshed relatively quickly](https://github.com/python/typeshed/pull/4011), but even when I installed the master branch of mypy, the error still persisted in my code. This is because mypy uses a submodule of typeshed. The solution is to fork mypy and update typeshed there. If my changes hadn't been merged into typeshed yet, I could fork that as well.
 
