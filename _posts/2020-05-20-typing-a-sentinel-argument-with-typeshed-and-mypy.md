@@ -50,7 +50,7 @@ The [pull request made it in to typeshed relatively quickly](https://github.com/
 
 ```sh
 # Using clone-cd from my fish functions to cd automatically
-# ()
+# (https://github.com/razzius/fish-functions#clone-cd-url-destination-source)
 clone-cd https://github.com/python/mypy
 # Go into typeshed submodule
 cd mypy/typeshed
