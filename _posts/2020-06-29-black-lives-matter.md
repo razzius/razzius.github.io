@@ -4,6 +4,8 @@ title: Black Lives Matter; Witnessing the Arrest of a Black Man
 date: 2020-07-01 11:12 -0500
 ---
 
+# Black Lives Matter; Witnessing the Arrest of a Black Man
+
 I stand with Black Lives Matter in protesting the killings of George Floyd, Ahmaud Arbery, Breonna Taylor and so many others by law enforcement and vigilantes.
 
 The issues with police in the United States are numerous. I encourage you to read about police brutality and racism (such as the history of slave patrols, an early form of policing). This post is about police transparency, in particular my experience witnessing the arrest of a black man.

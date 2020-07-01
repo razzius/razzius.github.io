@@ -4,7 +4,7 @@ title:  "Settings to use git pull with rebase"
 date:   2015-10-25
 ---
 
-## Settings to use git pull with rebase
+# Settings to use git pull with rebase
 
 [This post](http://mislav.net/2013/02/merge-vs-rebase/) by [@mislav](https://github.com/mislav) does a good job of explaining benefits of rebasing when pulling, namely that `git pull --rebase` eliminates merge commits that do not communicate useful information.
 

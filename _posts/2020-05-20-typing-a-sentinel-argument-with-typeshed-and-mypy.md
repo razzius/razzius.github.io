@@ -3,6 +3,8 @@ title: Typing a sentinel argument with typeshed and mypy
 date: 2020-05-20
 ---
 
+# Typing a sentinel argument with typeshed and mypy
+
 While writing code for my [Weave](https://github.com/razzius/weave) project, I encountered a type error when adding a command line interface to my Flask application:
 
 ```sh

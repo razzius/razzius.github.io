@@ -1,8 +1,10 @@
 ---
 layout: base
-title:  "Useful keyboard shortcut: autocomplete (⌥S)"
-date:   2015-10-12
+title: Useful keyboard shortcut: autocomplete (⌥S)
+date: 2015-10-12
 ---
+
+# Useful keyboard shortcut: autocomplete (⌥S)
 
 <h2>Useful keyboard shortcut: autocomplete (⌥S)</h2>
 <p>When filling out of text input, I often wish to accept the autocompletion provided. This requires hitting the down arrow to select the suggestion and then hitting enter to accept the completion. I don't like having to use arrow keys and I found myself doing this quite often, so I made a keyboard shortcut for accepting an autocompletion.</p>

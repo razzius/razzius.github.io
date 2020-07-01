@@ -3,7 +3,7 @@ title: I'm quitting violent video games
 date: 2018-01-19
 ---
 
-## I'm quitting violent video games
+# I'm quitting violent video games
 
 I used to be a frequent gamer, playing mostly Warcraft 3, World of Warcraft, and Dota 2. Although I haven't played them much recently, I'm now quitting playing and watching them altogether, because the main objective in the game is to kill or otherwise destroy your opponents.
 

@@ -3,7 +3,7 @@ title: "3 LightScript features I want when I write JavaScript"
 date: 2017-06-11
 ---
 
-## 3 LightScript features I want when I write JavaScript
+# 3 LightScript features I want when I write JavaScript
 
 [LightScript](http://lightscript.org) is a compile-to-js language with the semantics of JavaScript and a cleaned-up syntax. It has many similarities to [CoffeeScript](http://coffeescript.org) as a language and as a project.
 

@@ -3,7 +3,7 @@ title: "Audio Visualization with Web Audio and Canvas"
 date:  2016-10-16
 ---
 
-## Audio Visualization with Web Audio and Canvas
+# Audio Visualization with Web Audio and Canvas
 
 <div class="centered">
   <a href="/audio-visualization">
