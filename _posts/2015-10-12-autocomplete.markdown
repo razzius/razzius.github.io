@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Useful keyboard shortcut: autocomplete (⌥S)
+title: "Useful keyboard shortcut: autocomplete (⌥S)"
 date: 2015-10-12
 ---
 
