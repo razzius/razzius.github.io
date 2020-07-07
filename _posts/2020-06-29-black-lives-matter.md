@@ -58,6 +58,12 @@ I'm grateful for the Office of the Independent Police Auditor, which was establi
 
 I emailed the OIPA just now, about a year later. Hopefully they can confirm that the arrested man was not further abused by the justice system, like [Kalief Browder](https://en.wikipedia.org/wiki/Kalief_Browder) was. I left a voicemail at the BART phone number as well. I'll update this post if I hear back.
 
+#### [Update] OIPA Responded
+
+I got a call from OIPA who told me that upon being moved to the room, the man was cited and released. They confirmed that the incident was reviewed and was not found to be in violation of policy. They also reminded me that they had emailed me a pdf report that said the police were justified in their actions.
+
+They gave me the link sign up for the arrest log at https://www.bart.gov/news/alerts; after clicking "Sign up now", on the third step, "Select subscription topics", Bart Police Daily Log is in the "Other" section. Of course, seeing as the day's events happened months ago, signing up for the logs now isn't much help. Another developer signed up for the email logs implemented https://bartcrimes.com, which aggregates the email list. Looking at the date in question, https://www.bartcrimes.com/date/2019-07-23/, I don't see a report, probably because the man was only cited.
+
 ## Holding Police Accountable
 
 In [the case of Martin Gugino](https://en.wikipedia.org/wiki/Buffalo_police_shoving_incident), who was pushed over by Buffalo police and left bleeding on the ground, police said he "tripped and fell".
