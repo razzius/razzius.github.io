@@ -8,7 +8,7 @@ date: 2020-09-29
 I recently met with a nutritionist, [Megan Knipp](https://www.meganknipp.com), and her instructions for a food journal included being specific about the times and amounts of food I was eating. Previously, I had a notebook I was jotting down things I had eaten. Going digital gives me more space! She also requested I track my water intake. I'll see if I can pull that off another day.
 
 <div style="text-align: center; padding: 20px">
-<img align="center" src="/img/pancakes.jpg" alt="Sourdough pancakes with banana and peanut butter" />
+  <img align="center" src="/img/pancakes.jpg" alt="Sourdough pancakes with banana and peanut butter" />
 </div>
 
 Breakfast at 7:00am: 4 [sourdough pancakes](https://zerowastechef.com/2020/02/19/vegan-sourdough-pancakes/), substituting ground walnuts for almond flour. Served with a banana, a big scoop of peanut butter, and powdered sugar. Left me feeling full.
