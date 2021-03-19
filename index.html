@@ -4,13 +4,11 @@ layout: base
 
 <h2>Blog</h2>
 <ul>
-  {% for post in site.posts %}
-    {% if post.category != "terrible_vegan" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
+  {% for post in site.posts %} {% if post.category != "terrible_vegan" %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endif %} {% endfor %}
 </ul>
 
 <h2><a href="/projects">Projects</a></h2>
@@ -18,33 +16,74 @@ layout: base
 
 <h2>Some Of My Favorite Recipes.</h2>
 <ul>
-  <li><a href="http://www.happyandharried.com/2018/04/04/idli-dosa-batter/">Dosas</a></li>
-  <li><a href="https://theburlapbag.com/blog/2012/07/2-ingredient-cookies-plus-the-mix-ins-of-your-choice/">Two-Ingredient cookies (Oatmeal+Banana)</a></li>
-  <li><a href="https://skillet.lifehacker.com/this-bacon-is-bananas-peels-that-is-1833479569">Banana Peel Bacon</a></li>
-  <li><a href="https://minimalistbaker.com/the-best-damn-vegan-biscuits/">Vegan Biscuits</a></li>
-  <li><a href="https://theveganasana.com/easy-sourdough-flatbread/">Vegan Sourdough Flatbread</a></li>
+  <li>
+    <a href="http://www.happyandharried.com/2018/04/04/idli-dosa-batter/"
+      >Dosas</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://theburlapbag.com/blog/2012/07/2-ingredient-cookies-plus-the-mix-ins-of-your-choice/"
+      >Two-Ingredient cookies (Oatmeal+Banana)</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://skillet.lifehacker.com/this-bacon-is-bananas-peels-that-is-1833479569"
+      >Banana Peel Bacon</a
+    >
+  </li>
+  <li>
+    <a href="https://minimalistbaker.com/the-best-damn-vegan-biscuits/"
+      >Vegan Biscuits</a
+    >
+  </li>
+  <li>
+    <a href="https://theveganasana.com/easy-sourdough-flatbread/"
+      >Vegan Sourdough Flatbread</a
+    >
+  </li>
 </ul>
 
 <h2>Terrible Vegan Podcast</h2>
 <ol start="0">
   {% for post in site.categories.terrible_vegan reversed %}
-    <li class="episode-{{post.episode}}">
-      <a href="/assets/terrible_vegan_{{ post.episode }}.mp3">{{ post.title }} ({{ post.length }})</a>
-    </li>
+  <li class="episode-{{post.episode}}">
+    <a href="/assets/terrible_vegan_{{ post.episode }}.mp3"
+      >{{ post.title }} ({{ post.length }})</a
+    >
+  </li>
   {% endfor %}
 </ol>
 
-<div style="display: flex; justify-content: space-between">
-  <div style="width: 60%">
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 60%;">
     <h2>About</h2>
-    <p>I'm Razzi Abuissa, a software engineer currently in the city of Oakland, CA. My interests include free software, social justice, and sustainability.</p>
-    <a href='mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;'>&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a>
-    <div style="padding-top: 10px">
-      <a href="https://fsf.org"><img src="https://static.fsf.org/nosvn/associate/crm/4919729.png"></a>
-    </div>
+    <p>
+      I'm Razzi Abuissa, a software engineer currently in the city of Oakland,
+      CA. My interests include free software, social justice, and
+      sustainability.
+    </p>
+    <p>
+      <a
+	href="mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;"
+	>&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a
+      >
+    </p>
+    <p>
+      <a href="/feed.xml">
+        RSS
+      </a>
+    </p>
   </div>
-  <div style="max-width: 200px">
-    <img style="width: 100%" alt="Drawing of Razzi" src="img/razportrait-edit3.jpg"/>
-    <p style="text-align: center">Drawing by <a href="https://helloarielliu.com/">Ariel Liu</a></p>
+  <div style="max-width: 200px;">
+    <img
+      style="width: 100%;"
+      alt="Drawing of Razzi"
+      src="img/razportrait-edit3.jpg"
+    />
+    <p style="text-align: center;">
+      Drawing by <a href="https://helloarielliu.com/">Ariel Liu</a>
+    </p>
   </div>
 </div>
