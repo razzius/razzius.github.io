@@ -52,7 +52,7 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rouge (3.13.0)
     safe_yaml (1.0.4)
     sassc (2.2.1)
