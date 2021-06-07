@@ -5,6 +5,8 @@ category: recipe
 ---
 ## Lentil Soup Recipe
 
+<img src="/img/lentil_soup.jpg" width=400>
+
 This is my favorite easy soup to prepare.
 All of the ingredients are shelf-stable and only the onions and lemon are perishable.
 I don't know all the measurements for this, taste as you go!
