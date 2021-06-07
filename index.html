@@ -4,7 +4,8 @@ layout: base
 
 <h2>Blog</h2>
 <ul>
-  {% for post in site.posts %} {% if post.category != "terrible_vegan" %}
+  {% for post in site.posts %} {% if post.category != "terrible_vegan" and
+  post.category != "recipe" %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
@@ -34,7 +35,9 @@ layout: base
     >
   </li>
   <li>
-    <a href="https://zerowastechef.com/2020/02/19/vegan-sourdough-pancakes/">Vegan Sourdough Pancakes</a>
+    <a href="https://zerowastechef.com/2020/02/19/vegan-sourdough-pancakes/"
+      >Vegan Sourdough Pancakes</a
+    >
   </li>
   <li>
     <a href="https://minimalistbaker.com/the-best-damn-vegan-biscuits/"
@@ -46,6 +49,11 @@ layout: base
       >Vegan Sourdough Flatbread</a
     >
   </li>
+  {% for post in site.posts %} {% if post.category == "recipe" %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endif %} {% endfor %}
 </ul>
 
 <h2>Terrible Vegan Podcast</h2>
@@ -69,8 +77,8 @@ layout: base
     </p>
     <p>
       <a
-	href="mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;"
-	>&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a
+        href="mailto:&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;"
+        >&#114;&#97;&#122;&#122;&#105;&#64;&#97;&#98;&#117;&#105;&#115;&#115;&#97;&#46;&#110;&#101;&#116;</a
       >
     </p>
     <p>
