@@ -20,7 +20,7 @@ Ingredients:
 - a lot of cumin
 - about a tablespoon of salt
 - pepper
-- about 8 cups waterwater
+- about 8 cups water
 - lemon slices
 
 Dice onions. Cover the bottom of a large pot with olive oil, and heat it up.
