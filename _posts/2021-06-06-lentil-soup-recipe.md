@@ -3,7 +3,7 @@ title: Lentil Soup Recipe
 date: 2021-06-06
 category: recipe
 ---
-## Lentil Soup Recipe
+# Lentil Soup Recipe
 
 <img src="/img/lentil_soup.jpg" width=400>
 
@@ -11,7 +11,7 @@ This is my favorite easy soup to prepare.
 All of the ingredients are shelf-stable and only the onions and lemon are perishable.
 I don't know all the measurements for this, taste as you go!
 
-Ingredients:
+## Ingredients:
 
 - 2 yellow onions
 - 1/2 cup rice
@@ -22,6 +22,8 @@ Ingredients:
 - pepper
 - about 8 cups water
 - lemon slices
+
+## Instructions:
 
 Dice onions. Cover the bottom of a large pot with olive oil, and heat it up.
 Add onions when the oil is hot enough to sizzle, but before it starts smoking.
