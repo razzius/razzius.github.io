@@ -6,6 +6,8 @@ category: recipe
 
 # Baklava Recipe
 
+<img src="/img/baklava.jpg" width=400>
+
 This is my favorite special occasion dessert. It's an unusual recipe for me; it requires special ingredients and lots of time and care. The upside is that it's delicious and lasts a while, making it great for gifts.
 
 ## Rough outline:
@@ -32,14 +34,7 @@ Note that you *freeze* before you cut, cut *before* you bake, and you bake *befo
 - *optional* 1/4 cup honey
 - 1 1/2 cup sugar
 - 1 1/2 cup water
-- 1 lemon, sliced into circles
-
-## Equipment:
-
-- pastry brush (if you're like me and don't have one, use a fork)
-- 8x11 inch pan
-- optional cupcake tissue papers to make single servings easy
-- 2 saucepans
+- 1 lemon, sliced into thin discs
 
 ## Instructions:
 
@@ -47,7 +42,7 @@ Defrost phyllo dough in fridge for 2-3 hours. While the phyllo dough defrosts, p
 
 Preheat oven to 350 degrees.
 
-Lay 1 sheet of phyllo dough and cover it thinly with butter. Use a pastry brush or a fork to spread the butter thin by dipping the utensil in the butter, then grazing the surface of the phyllo. After 9 sheets, spread half the nut mix across the pan. Very delicately, lay 2 more sheets with butter very gently. These are the most difficult sheets; they will stick to the butter and move, but you can carefully realign the phyllo sheet. Spread the rest of the nut mix. Add the remainin sheets with butter.
+Grease a 1-inch 8x11 baking pan with butter. Lay 1 sheet of phyllo dough and cover it thinly with butter. Use a pastry brush or a fork to spread the butter thin by dipping the utensil in the butter, then grazing the surface of the phyllo. After 9 sheets, spread half the nut mix across the pan. Very delicately, lay 2 more sheets with butter very gently. These are the most difficult sheets; they will stick to the butter and move, but you can carefully realign the phyllo sheet. Spread the rest of the nut mix. Add the remainin sheets with butter.
 
 Put in the freezer for 10 minutes, so that the butter solidifies and it's easy to cut. Take it out and cut diagonally across the pan with a knife the long way, then straight lines the short way. Put in the oven on the middle rack for between 45 minutes and an hour.
 
