@@ -70,18 +70,10 @@ ol li:before {
   height: 300px;
 }
 
-a {
-  text-decoration: none;
-}
-
 a.homepage {
   background: linear-gradient(110deg, blue, darkblue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* https://stackoverflow.com/a/25799646/1636613 */
