@@ -5,7 +5,7 @@ category: recipe
 ---
 # Mousa's Hummus Recipe
 
-<img src="/img/mousas_hummus.jpg" width=400>
+<!-- <img src="/img/mousas_hummus.jpg" width=400> -->
 
 Hummus is healthy and simple, vegan and gluten free.
 I've made it a few times, but I forgot how to make it tasty. Luckily my cousin Mousa showed me his way, and tasty is back.
@@ -33,7 +33,7 @@ Add less than a teaspoon of salt; this one's a bit tricky since some chickpeas c
 
 Add the lemon to the food processor, and give it a spin.
 
-<img src="/img/mousas_lemon.jpg" width=400>
+<!-- <img src="/img/mousas_lemon.jpg" width=400> -->
 
 Add a heaping spoon of cumin.
 
