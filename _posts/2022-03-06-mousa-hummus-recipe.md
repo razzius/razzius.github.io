@@ -33,7 +33,7 @@ Add less than a teaspoon of salt; this one's a bit tricky since some chickpeas c
 
 Add the lemon to the food processor, and give it a spin.
 
-<image>
+<img src="/img/mousas_lemon.jpg" width=400>
 
 Add a heaping spoon of cumin.
 
