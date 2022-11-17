@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+*test*
 
 <h2>Blog</h2>
 <ul>
@@ -18,45 +19,18 @@ layout: base
 <h2><a href="/music">Music</a></h2>
 <p>Playlists. Music blog coming soon.</p>
 
-<h2>Some Of My Favorite Recipes.</h2>
+## Some Of My Favorite Recipes.
+- [Dosas](http://www.happyandharried.com/2018/04/04/idli-dosa-batter/)
+- [Two-Ingredient cookies (Oatmeal+Banana)](https://theburlapbag.com/blog/2012/07/2-ingredient-cookies-plus-the-mix-ins-of-your-choice/)
+- [Banana Peel Bacon](https://skillet.lifehacker.com/this-bacon-is-bananas-peels-that-is-1833479569)
+- [Sourdough](https://www.kingarthurbaking.com/recipes/no-knead-sourdough-bread-recipe)
+- [Vegan Sourdough Pancakes](https://zerowastechef.com/2020/02/19/vegan-sourdough-pancakes/)
+- [Vegan Biscuits](https://minimalistbaker.com/the-best-damn-vegan-biscuits/)
+- [Vegan Sourdough Flatbread](https://theveganasana.com/easy-sourdough-flatbread/)
+- [Yabra aka Malfouf (vegetarian version)](https://plantbasedfolk.com/malfouf/)
+
+## My Recipes
 <ul>
-  <li>
-    <a href="http://www.happyandharried.com/2018/04/04/idli-dosa-batter/"
-      >Dosas</a
-    >
-  </li>
-  <li>
-    <a
-      href="https://theburlapbag.com/blog/2012/07/2-ingredient-cookies-plus-the-mix-ins-of-your-choice/"
-      >Two-Ingredient cookies (Oatmeal+Banana)</a
-    >
-  </li>
-  <li>
-    <a
-      href="https://skillet.lifehacker.com/this-bacon-is-bananas-peels-that-is-1833479569"
-      >Banana Peel Bacon</a
-    >
-  </li>
-  <li>
-    <a href="https://zerowastechef.com/2020/02/19/vegan-sourdough-pancakes/"
-      >Vegan Sourdough Pancakes</a
-    >
-  </li>
-  <li>
-    <a href="https://minimalistbaker.com/the-best-damn-vegan-biscuits/"
-      >Vegan Biscuits</a
-    >
-  </li>
-  <li>
-    <a href="https://theveganasana.com/easy-sourdough-flatbread/"
-      >Vegan Sourdough Flatbread</a
-    >
-  </li>
-  <li>
-    <a href="https://plantbasedfolk.com/malfouf/"
-      >Yabra aka Malfouf (vegetarian version)</a
-    >
-  </li>
   {% for post in site.posts %} {% if post.category == "recipe" %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
@@ -79,8 +53,8 @@ layout: base
   <div style="width: 60%;">
     <h2>About</h2>
     <p>
-      I'm Razzi Abuissa, a software engineer currently in the city of Oakland,
-      CA. My interests include free software, social justice, and
+      I'm Razzi Abuissa, a software engineer currently in the city of Iowa City,
+      IA. My interests include free software, social justice, and
       sustainability.
     </p>
     <p>
@@ -95,7 +69,7 @@ layout: base
       </a>
     </p>
     <h2>Links</h2>
-<a href=https://razzi.abuissa.net/mtg-score-counter/>MTG Score Counter</a>
+    <a href="https://razzi.abuissa.net/mtg-score-counter/">MTG Score Counter</a>
   </div>
   <div style="max-width: 200px;">
     <img
